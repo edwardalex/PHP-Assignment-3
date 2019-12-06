@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-      for($i=155;$i<=255;$i++)
+      for($i=255;$i>=155;$i--)
       { 
         if($i%7 == 0){
             echo "Baba" . "<br>";
